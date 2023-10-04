@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.banniere_img{
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    text-align: center;
+    height: 220px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 25px;
+    background: #000;
+
+
+
+    img{
+        opacity: 0.7;
+        border-radius: 25px;
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    p{
+        margin : 0;
+        position : absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        color: #FFF ;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+
+    }
+
+}

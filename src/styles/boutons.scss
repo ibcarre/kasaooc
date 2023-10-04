@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.infos{
+
+    display: flex;
+    justify-content: space-between;
+    margin-right:100px;
+
+
+}
+
+.boutons{
+    margin-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+    gap:10px;
+
+    .btn_tag{
+        border-style: none;
+        outline-style: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        min-width:115px;
+        height: 25px; 
+        border-radius: 10px;
+        background: #FF6060; 
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal; 
+    }
+}
+
+.etoiles{
+    display: flex;
+    gap: 20px;
+}

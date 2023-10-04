@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.carousel{
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 415px;
+    position: relative;
+    figure{
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+        height:415px;
+        img{
+            border-radius: 25px; 
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+        .chevronLeft{
+            font-size: 80px;
+            top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
+            left: 75px;
+        }
+        .chevronRight{
+            font-size: 80px;
+            top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
+            right:75px;        
+        }
+
+        .index_pos{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 25px;
+            text-align: center;
+            color: white;
+            font-family: Montserrat;
+            font-size: 18px; 
+        }
+}

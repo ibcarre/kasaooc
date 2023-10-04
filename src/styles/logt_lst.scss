@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.logement_liste{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left :100px;
+    padding : 50px;
+    margin-right:100px;
+    gap:60px;
+    border-radius: 25px;
+    background: #F6F6F6; 
+
+    .log_card{
+        width: 100%;
+        margin:0;
+        position: relative;
+        max-width:340px;
+        border-radius: 10px; 
+        height:340px;
+        img{
+            border-radius: 10px; 
+            max-width: 340px;
+            height:340px;
+            object-fit: cover;
+            
+
+        }
+        .card_txt{
+            padding-right: 25px;
+            position:absolute;
+            bottom: 20px;
+            left: 20px;
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+
+
+       }
+
+    }
+
+}
+
+.ombre::after {
+    border-radius: 10px; 
+    background: linear-gradient(#ffffff00, #000000c3);    
+    // box-shadow: inset 0px -49px 50px -30px #000000;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+

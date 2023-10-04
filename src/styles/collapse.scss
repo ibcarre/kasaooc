@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.collapse_comp{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    .toggle{
+        display : block;
+        margin-right: 200px;
+        margin-left:200px;
+        background: var(--Gray, #F6F6F6);
+        padding-left: 20px;
+
+        p{
+            font-family: Montserrat;
+            font-size: 18px;
+            color: var(--Red, #FF6060);
+
+        }
+    }
+}
+
+.collapse_tab{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    margin-right: 200px;
+    margin-left:200px;
+    padding: 0px 20px 0px 15px;
+    background: var(--Red, #FF6060);
+
+    h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+
+    }
+
+    .arrow{
+        position: absolute;
+        right:20px;
+        width: 32px;
+        height: 32px;
+        transition-property: transform;
+        transition-duration: 400ms;
+
+        &:active{
+            transform: rotate(180deg);
+        }
+    }
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+footer{
+    display: flex;
+    padding-top:60px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    color:white;
+    background-color: black;
+
+    img{
+        width: 120px;
+        height: 40px; 
+    }
+
+    p{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 24px;
+    }
+
+}
