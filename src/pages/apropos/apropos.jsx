@@ -11,6 +11,7 @@ import Footer from "../../components/footer.jsx";
 export function Apropos() {
     return (
     <>
+      <div className='main_container'>
       <Header
       page = {"apropos"}/>
       <Banner src = {bannerImage} txt={""} />
@@ -32,6 +33,7 @@ export function Apropos() {
       également des ateliers sur la sécurité domestique pour nos hôtes.`}/>
       </div>
       <span style = {{padding:"40px"}}></span>
+      </div>
       <Footer />
     </>
     );

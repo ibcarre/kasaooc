@@ -46,6 +46,7 @@ function page_body(x){
     }
     return (
     <>
+    <div className="main_container">
     <Header page = {""}/>
     <Carousel index = {x} />
     <div style = {{padding:"15px"}}></div>
@@ -67,6 +68,7 @@ function page_body(x){
     <Collapse title = {"Équipements"} txt = {get_equip(equip)} />
     </div>
     <div style = {{padding:"25px"}} />
+    </div>
     <Footer />
     </>
     )

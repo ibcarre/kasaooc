@@ -13,12 +13,13 @@ import Footer from "../../components/footer.jsx";
 export function Accueil() {
     return (
       <>
+        <div className='main_container'>
         <Header page={"accueil"}/>
         <Banner src = {bannerImage} txt={"Chez vous, partout et ailleurs"} />
         <div style = {{padding:"25px"}}></div>
         <LogmtLst />
         <div style = {{padding:"25px"}}></div>
-
+        </div>
         <Footer />
       </>
     );

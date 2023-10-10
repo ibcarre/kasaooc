@@ -2,26 +2,32 @@
 
 
 .logement_liste{
+    box-sizing: border-box;
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
     margin-left :100px;
     padding : 50px;
     margin-right:100px;
-    gap:60px;
+    gap: 5%;
+    row-gap: 60px;
     border-radius: 25px;
     background: #F6F6F6; 
+
+    .logement_card{
+        width: 30%;
+        border-radius: 10px; 
+        overflow: hidden;
+
+    }
 
     .log_card{
         width: 100%;
         margin:0;
         position: relative;
-        max-width:340px;
-        border-radius: 10px; 
         height:340px;
         img{
             border-radius: 10px; 
-            max-width: 340px;
             height:340px;
             object-fit: cover;
             
@@ -56,4 +62,3 @@
     top: 0;
     width: 100%;
   }
-
