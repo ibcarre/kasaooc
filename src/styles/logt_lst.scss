@@ -30,6 +30,7 @@
             border-radius: 10px; 
             height:340px;
             object-fit: cover;
+
             
 
         }
@@ -61,4 +62,43 @@
     position: absolute;
     top: 0;
     width: 100%;
+  }
+
+
+  @media (max-width: 1080px) {
+
+.logement_liste{
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    row-gap: 20px;
+
+    .logement_card{
+        width: 100%;
+        border-radius: 10px; 
+        overflow: hidden;
+        .log_card{
+            display: flex;
+            align-items: center;
+            
+            img{
+                
+                height: auto;
+                object-fit: cover;
+                object-position: bottom center;
+
+    
+
+    }
+
+
+}
+
+    
+  
+   }
+}
   }

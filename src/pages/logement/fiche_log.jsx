@@ -58,7 +58,7 @@ function page_body(x){
         <Bouton txt = {x}/>
     ))}
     </div>
-    <div class ="etoiles">
+    <div className ="etoiles">
     <Rating index = {x}/>
     </div>
     </div>

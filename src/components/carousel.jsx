@@ -29,7 +29,7 @@ export default function Carousel({index}){
                 <div className ="chevronLeft" onClick ={handlePrevious} >
                     <FontAwesomeIcon icon={faChevronLeft} style={{color: "#ffffff",}} />
                 </div>
-                <div class="index_pos">
+                <div className="index_pos">
                     {currentIndex+1}/{images.length}
                 </div>
                 </figure>

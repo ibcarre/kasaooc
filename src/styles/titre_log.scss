@@ -59,3 +59,29 @@
         }
     }
 }
+
+@media (max-width: 1080px) {
+    .logement_{
+
+        display: flex;
+        flex-direction: column;
+        margin-left:20px;
+        margin-right: 20px;
+        justify-content: space-between;
+    
+        .logement_title{
+            font-size: 18px; 
+        }
+
+        .logement_sstitre{
+            font-size: 14px; 
+    
+        }
+
+        .proprio{
+            justify-content: flex-end;
+        }
+
+
+}
+}

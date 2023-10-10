@@ -6,13 +6,16 @@
     margin-left: 100px;
     height: 415px;
     position: relative;
+    border-radius: 25px; 
+    overflow: hidden;
+
+
     figure{
         padding: 0;
         box-sizing: border-box;
         margin: 0;
         height:415px;
         img{
-            border-radius: 25px; 
             object-fit: cover;
             height: 100%;
             width: 100%;
@@ -35,6 +38,7 @@
         }
 
         .index_pos{
+            display: block;
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
@@ -44,4 +48,40 @@
             font-family: Montserrat;
             font-size: 18px; 
         }
+}
+
+@media (max-width: 1080px) {
+
+    .carousel{
+        margin-right: 20px;
+        margin-left: 20px;
+        height: 255px;
+        overflow: hidden;
+        figure{
+        img{
+            object-fit: cover;
+            object-position: bottom;
+        }
+    }
+
+        .chevronLeft{
+            font-size: 40px;
+            top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
+            left: 20px;
+        }
+        .chevronRight{
+            font-size: 40px;
+            top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
+            right:20px;        
+        }
+
+        .index_pos{
+            display: none;
+        }
+    }
+    
 }

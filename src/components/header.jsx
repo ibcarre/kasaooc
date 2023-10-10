@@ -4,32 +4,32 @@ import { Link } from 'react-router-dom';
 function header({page}){
     if (page==="accueil"){
     return (<header>
-        <figure class ="logo" >
+        <figure className ="logo" >
             <img src={logo} alt ="logo de Kasa"/>
         </figure>
-        <nav class = "navbar">
-            <Link to ="/" class = "underline">Accueil</Link>
+        <nav className = "navbar">
+            <Link to ="/" className = "underline">Accueil</Link>
             <Link to ="/apropos" >A propos</Link>
         </nav>
     </header>);
     } 
     else if(page === "apropos"){
         return (<header>
-            <figure class ="logo" >
+            <figure className ="logo" >
                 <img src={logo} alt ="logo de Kasa"/>
             </figure>
-            <nav class = "navbar">
+            <nav className = "navbar">
                 <Link to ="/">Accueil</Link>
-                <Link to ="/apropos" class = "underline">A propos</Link>
+                <Link to ="/apropos" className = "underline">A propos</Link>
             </nav>
         </header>);
         } 
     else{
         return (<header>
-            <figure class ="logo" >
+            <figure className ="logo" >
                 <img src={logo} alt ="logo de Kasa"/>
             </figure>
-            <nav class = "navbar">
+            <nav className = "navbar">
                 <Link to ="/">Accueil</Link>
                 <Link to ="/apropos">A propos</Link>
             </nav>

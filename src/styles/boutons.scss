@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-
 .infos{
 
     display: flex;
     justify-content: space-between;
     margin-right:100px;
+    margin-left: 100px;
+    position: relative;
+
 
 
 }
 
 .boutons{
-    margin-left: 100px;
+
     display: flex;
     justify-content: flex-start;
     gap:10px;
-
+    
     .btn_tag{
         border-style: none;
         outline-style: none;
@@ -36,4 +38,31 @@
 .etoiles{
     display: flex;
     gap: 20px;
+}
+
+@media (max-width: 1080px) {
+    .infos{
+        display: block;
+        margin-right:20px;
+        margin-left: 20px;
+
+    }
+    .etoiles{
+        position:relative;
+        top:-75px;
+        font-size:15px ;
+        gap:10px;
+    }
+
+    .boutons{
+        position:relative;
+        
+        .btn_tag{
+            width: 84px;
+            height: 18px; 
+            font-size: 10px;
+        }
+    }
+
+
 }

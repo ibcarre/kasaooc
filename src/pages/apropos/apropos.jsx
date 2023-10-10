@@ -14,7 +14,7 @@ export function Apropos() {
       <div className='main_container'>
       <Header
       page = {"apropos"}/>
-      <Banner src = {bannerImage} txt={""} />
+      <Banner src = {bannerImage} txt={false} />
       <span style = {{padding:"20px"}}></span>
       <div className='collapsed_window'>
       <Collapse title ={"Fiabilité"} txt={`Les annonces postées sur Kasa garantissent une fiabilité totale. 

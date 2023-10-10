@@ -15,7 +15,7 @@ header{
   flex-direction: row;
 }
 
-.logo{
+.logo img{
   width: 210.322px;
   height: 68px; 
 }
@@ -50,6 +50,32 @@ header{
     margin: 0 auto;
     padding: 0px;
     min-height: 85vh;
+  }
+  
+
+ }
+
+
+ @media (max-width: 1080px) {
+  .main_container{
+    max-width: none;
+    margin: 0 auto;
+    padding: 0px;
+    min-height: 85vh;
+  }
+
+  header{
+    display: flex;
+    padding-top: 45px;
+    padding-bottom:45px;
+    padding-left: 0px;
+    padding-right: 20px;
+    flex-direction: row;
+  }
+
+  .logo img{
+    width: 145px;
+    height: 46.881px; 
   }
   
 
