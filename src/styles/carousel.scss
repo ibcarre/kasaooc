@@ -28,6 +28,10 @@
             transform: translateY(-50%);
             position: absolute;
             left: 75px;
+
+            &:hover{
+                cursor:pointer;
+            }
         }
         .chevronRight{
             font-size: 80px;
@@ -35,6 +39,9 @@
             transform: translateY(-50%);
             position: absolute;
             right:75px;        
+            &:hover{
+                cursor:pointer;
+            }
         }
 
         .index_pos{

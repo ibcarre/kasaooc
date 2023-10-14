@@ -66,3 +66,11 @@
 
 
 }
+
+@media (max-width: 572px) {
+    .boutons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

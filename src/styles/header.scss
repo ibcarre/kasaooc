@@ -1,5 +1,6 @@
 .main_container{
   max-width: 1440px;
+  min-width: 375px;
   margin: 0 auto;
   padding: 0px;
   min-height: 85vh;
@@ -32,8 +33,9 @@ header{
   font-size: 24px; 
   a{
   text-decoration: none;
+  color: #FF6060;
   &:visited, &:active{
-    color:inherit;
+    color: #FF6060;
 
   }
 }
@@ -57,6 +59,8 @@ header{
 
 
  @media (max-width: 1080px) {
+
+  
   .main_container{
     max-width: none;
     margin: 0 auto;
@@ -78,5 +82,16 @@ header{
     height: 46.881px; 
   }
   
+
+ }
+
+
+ @media (max-width: 572px) {
+  .navbar{
+    gap : 25px;
+    text-align: center;
+    font-size: 12px;
+  }
+
 
  }

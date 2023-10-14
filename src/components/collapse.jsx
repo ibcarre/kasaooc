@@ -18,9 +18,9 @@ export default function Collapse({title, txt}){
       };      
     return (
     <div className ="collapse_comp" style = {{maxHeight : maxHeight, transition: "max-height 0.5s ease"}}>
-        <div className = "collapse_tab">
+        <div className = "collapse_tab"  onClick ={toggle}>
         <h1 className ="collapse_title">{title}</h1>
-        <div onClick ={toggle} className = "arrow"><FontAwesomeIcon icon={faChevronUp} size="2xl" style={{color: "#feffff",transform: `rotate(${rotate}deg)`,transition: "transform 0.3s ease",}}/></div>
+        <div className = "arrow"><FontAwesomeIcon icon={faChevronUp} size="2xl" style={{color: "#feffff",transform: `rotate(${rotate}deg)`,transition: "transform 0.3s ease",}}/></div>
         </div>
          <div className="toggle">
              <p>{txt}</p>
